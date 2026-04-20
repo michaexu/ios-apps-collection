@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* GardenPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* GardenPalApp.swift */; };
+		B10000000000000000000002 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* MainTabView.swift */; };
+		B10000000000000000000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* Theme.swift */; };
+		B10000000000000000000004 /* GardenEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* GardenEnums.swift */; };
+		B10000000000000000000005 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* Plant.swift */; };
+		B10000000000000000000006 /* CareLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* CareLog.swift */; };
+		B10000000000000000000007 /* DiagnosisSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* DiagnosisSession.swift */; };
+		B10000000000000000000008 /* CareScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* CareScheduling.swift */; };
+		B10000000000000000000009 /* SpeciesCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* SpeciesCatalog.swift */; };
+		B1000000000000000000000A /* SymptomRulebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000A /* SymptomRulebook.swift */; };
+		B1000000000000000000000B /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000B /* UserSettings.swift */; };
+		B1000000000000000000000C /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000C /* NotificationScheduler.swift */; };
+		B1000000000000000000000D /* PlantsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000D /* PlantsListView.swift */; };
+		B1000000000000000000000E /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000E /* PlantCardView.swift */; };
+		B1000000000000000000000F /* AddPlantFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000F /* AddPlantFlowView.swift */; };
+		B10000000000000000000010 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* PlantDetailView.swift */; };
+		B10000000000000000000011 /* DoctorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* DoctorHomeView.swift */; };
+		B10000000000000000000012 /* DiagnosisFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* DiagnosisFlowView.swift */; };
+		B10000000000000000000013 /* RemindersHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* RemindersHomeView.swift */; };
+		B10000000000000000000014 /* ExploreHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* ExploreHomeView.swift */; };
+		B10000000000000000000015 /* EncyclopediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* EncyclopediaView.swift */; };
+		B10000000000000000000016 /* BalconyPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000016 /* BalconyPlannerView.swift */; };
+		B10000000000000000000017 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000017 /* AboutView.swift */; };
+		B10000000000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000018 /* Assets.xcassets */; };
+		B10000000000000000000019 /* species_top200.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000019 /* species_top200.json */; };
+		B1000000000000000000001A /* symptom_rules.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001A /* symptom_rules.json */; };
+		B20000000000000000000001 /* CareSchedulingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* CareSchedulingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000000000000000000001 /* GardenPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000002 /* GardenPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000001 /* GardenPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenPalApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* GardenEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenEnums.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* CareLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareLog.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* DiagnosisSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisSession.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* CareScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareScheduling.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* SpeciesCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesCatalog.swift; sourceTree = "<group>"; };
+		F1000000000000000000000A /* SymptomRulebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRulebook.swift; sourceTree = "<group>"; };
+		F1000000000000000000000B /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F1000000000000000000000C /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		F1000000000000000000000D /* PlantsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsListView.swift; sourceTree = "<group>"; };
+		F1000000000000000000000E /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
+		F1000000000000000000000F /* AddPlantFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantFlowView.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* DoctorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeView.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* DiagnosisFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisFlowView.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* RemindersHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersHomeView.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* ExploreHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHomeView.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* EncyclopediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaView.swift; sourceTree = "<group>"; };
+		F10000000000000000000016 /* BalconyPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalconyPlannerView.swift; sourceTree = "<group>"; };
+		F10000000000000000000017 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F10000000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000000000000000000019 /* species_top200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = species_top200.json; sourceTree = "<group>"; };
+		F1000000000000000000001A /* symptom_rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = symptom_rules.json; sourceTree = "<group>"; };
+		F20000000000000000000001 /* CareSchedulingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareSchedulingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000002 /* GardenPal */,
+				G20000000000000000000001 /* GardenPalTests */,
+				G10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000000000000000000002 /* GardenPal */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* GardenPalApp.swift */,
+				F10000000000000000000002 /* MainTabView.swift */,
+				G10000000000000000000004 /* DesignSystem */,
+				G10000000000000000000005 /* Core */,
+				G10000000000000000000006 /* Features */,
+				G10000000000000000000007 /* Resources */,
+				F10000000000000000000018 /* Assets.xcassets */,
+			);
+			path = GardenPal;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000000000000000001 /* GardenPal.app */,
+				F00000000000000000000002 /* GardenPalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000004 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000003 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000005 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				G10000000000000000000008 /* Models */,
+				G10000000000000000000009 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				G1000000000000000000000A /* Plants */,
+				G1000000000000000000000B /* Doctor */,
+				G1000000000000000000000C /* Reminders */,
+				G1000000000000000000000D /* Explore */,
+				G1000000000000000000000E /* About */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000019 /* species_top200.json */,
+				F1000000000000000000001A /* symptom_rules.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000004 /* GardenEnums.swift */,
+				F10000000000000000000005 /* Plant.swift */,
+				F10000000000000000000006 /* CareLog.swift */,
+				F10000000000000000000007 /* DiagnosisSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G10000000000000000000009 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000008 /* CareScheduling.swift */,
+				F10000000000000000000009 /* SpeciesCatalog.swift */,
+				F1000000000000000000000A /* SymptomRulebook.swift */,
+				F1000000000000000000000B /* UserSettings.swift */,
+				F1000000000000000000000C /* NotificationScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000A /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000000D /* PlantsListView.swift */,
+				F1000000000000000000000E /* PlantCardView.swift */,
+				F1000000000000000000000F /* AddPlantFlowView.swift */,
+				F10000000000000000000010 /* PlantDetailView.swift */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000B /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000011 /* DoctorHomeView.swift */,
+				F10000000000000000000012 /* DiagnosisFlowView.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000C /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000013 /* RemindersHomeView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000014 /* ExploreHomeView.swift */,
+				F10000000000000000000015 /* EncyclopediaView.swift */,
+				F10000000000000000000016 /* BalconyPlannerView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		G1000000000000000000000E /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000017 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		G20000000000000000000001 /* GardenPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F20000000000000000000001 /* CareSchedulingTests.swift */,
+			);
+			path = GardenPalTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000000000000000000001 /* GardenPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000001 /* Build configuration list for PBXNativeTarget "GardenPal" */;
+			buildPhases = (
+				S10000000000000000000001 /* Sources */,
+				E10000000000000000000001 /* Frameworks */,
+				R10000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenPal;
+			productName = GardenPal;
+			productReference = F00000000000000000000001 /* GardenPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		T10000000000000000000002 /* GardenPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000002 /* Build configuration list for PBXNativeTarget "GardenPalTests" */;
+			buildPhases = (
+				S10000000000000000000002 /* Sources */,
+				E10000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = GardenPalTests;
+			productName = GardenPalTests;
+			productReference = F00000000000000000000002 /* GardenPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T10000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					T10000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = T10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = C10000000000000000000001 /* Build configuration list for PBXProject "GardenPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G10000000000000000000001;
+			productRefGroup = G10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000000000000000000001 /* GardenPal */,
+				T10000000000000000000002 /* GardenPalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000018 /* Assets.xcassets in Resources */,
+				B10000000000000000000019 /* species_top200.json in Resources */,
+				B1000000000000000000001A /* symptom_rules.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* GardenPalApp.swift in Sources */,
+				B10000000000000000000002 /* MainTabView.swift in Sources */,
+				B10000000000000000000003 /* Theme.swift in Sources */,
+				B10000000000000000000004 /* GardenEnums.swift in Sources */,
+				B10000000000000000000005 /* Plant.swift in Sources */,
+				B10000000000000000000006 /* CareLog.swift in Sources */,
+				B10000000000000000000007 /* DiagnosisSession.swift in Sources */,
+				B10000000000000000000008 /* CareScheduling.swift in Sources */,
+				B10000000000000000000009 /* SpeciesCatalog.swift in Sources */,
+				B1000000000000000000000A /* SymptomRulebook.swift in Sources */,
+				B1000000000000000000000B /* UserSettings.swift in Sources */,
+				B1000000000000000000000C /* NotificationScheduler.swift in Sources */,
+				B1000000000000000000000D /* PlantsListView.swift in Sources */,
+				B1000000000000000000000E /* PlantCardView.swift in Sources */,
+				B1000000000000000000000F /* AddPlantFlowView.swift in Sources */,
+				B10000000000000000000010 /* PlantDetailView.swift in Sources */,
+				B10000000000000000000011 /* DoctorHomeView.swift in Sources */,
+				B10000000000000000000012 /* DiagnosisFlowView.swift in Sources */,
+				B10000000000000000000013 /* RemindersHomeView.swift in Sources */,
+				B10000000000000000000014 /* ExploreHomeView.swift in Sources */,
+				B10000000000000000000015 /* EncyclopediaView.swift in Sources */,
+				B10000000000000000000016 /* BalconyPlannerView.swift in Sources */,
+				B10000000000000000000017 /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20000000000000000000001 /* CareSchedulingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = T10000000000000000000001 /* GardenPal */;
+			targetProxy = X10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		X10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = T10000000000000000000001;
+			remoteInfo = GardenPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		C30000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C30000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C30000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GardenPal;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于为植物拍照存档（本地模式不做云端识别）。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择植物照片作为头像。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gardenpal.GardenPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GardenPal;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于为植物拍照存档（本地模式不做云端识别）。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择植物照片作为头像。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gardenpal.GardenPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C30000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gardenpal.GardenPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenPal";
+			};
+			name = Debug;
+		};
+		C30000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gardenpal.GardenPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenPal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10000000000000000000001 /* Build configuration list for PBXProject "GardenPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30000000000000000000001 /* Debug */,
+				C30000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20000000000000000000001 /* Build configuration list for PBXNativeTarget "GardenPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30000000000000000000003 /* Debug */,
+				C30000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20000000000000000000002 /* Build configuration list for PBXNativeTarget "GardenPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30000000000000000000005 /* Debug */,
+				C30000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P10000000000000000000001 /* Project object */;
+}

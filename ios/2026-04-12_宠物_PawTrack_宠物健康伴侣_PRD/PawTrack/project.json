@@ -1,0 +1,17 @@
+{
+  "projectName": "PawTrack",
+  "organizationName": "PawTrack",
+  "bundleIdentifier": "com.pawtrack.app",
+  "developmentRegion": "zh-CN",
+  "deploymentTarget": {
+    "iOS": "17.0"
+  },
+  "swiftVersion": "5.9",
+  "enableSwiftUI": true,
+  "enableSwiftData": true,
+  "features": [
+    "Push Notifications",
+    "Photo Library",
+    "Camera"
+  ]
+}
